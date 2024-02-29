@@ -1,8 +1,12 @@
 def feet_to_steps(user_feet):
-   #write your code here
+   user_steps = user_feet //2.5
+   return user_steps
 
 if __name__ == '__main__':
-    #take input feet steps here
-    #store it into the function
+    user_feet = float(input())
+    print(int(feet_to_steps(user_feet)))
     
-    #print your steps here
+'''
+Name: Wyatt Fulton
+Lab Time: Thur 2:00PM
+'''
